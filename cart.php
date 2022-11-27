@@ -45,7 +45,7 @@ if(isset($_GET['delete_all'])){
    
 <?php include 'header.php'; ?>
 
-<div class="heading" style="background: url(./images/headersea.png) no-repeat;">
+<div class="heading" style="background: url(./images/headersea.png) no-repeat;background-size:cover;">
    <h3>shopping cart</h3>
    <p> <a href="home.php">home</a> / cart </p>
 </div>

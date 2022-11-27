@@ -20,7 +20,8 @@ if(isset($message)){
       <nav class="navbar">
          <a href="admin_page.php">home</a>
          <a href="admin_products.php">products</a>
-         <a href="admin_orders.php">orders</a>
+         <a href="admin_orders.php">pending</a>
+         <a href="comp_order.php">completed</a>
          <a href="Workers.php">Workers</a>
          <a href="admin_users.php">users</a>
          <a href="admin_contacts.php">messages</a>
@@ -28,8 +29,15 @@ if(isset($message)){
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
-         <a href="logout.php"><div id="user-btn" class="fas fa-user"><p style="display: inline;">logout</p></div></a>
+         <div id="user-btn" class="fas fa-user"></div>
       </div>
+
+      <div class="account-box">
+         <p>username : <span><?php echo $_SESSION['admin_name']; ?></span></p>
+         <p>email : <span><?php echo $_SESSION['admin_email']; ?></span></p>
+         <p>ADMIN</p>
+         <a href="logout.php" class="delete-btn">logout</a>
+         </div>
 
    </div>
 

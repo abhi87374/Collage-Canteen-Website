@@ -57,7 +57,7 @@ if (!isset($admin_id)) {
             };
             ?>
             <h3>&#8377;<?php echo $total_completed; ?>/-</h3>
-            <p><a href="admin_orders.php">completed payments</a></p>
+            <p><a href="comp_order.php">completed payments</a></p>
          </div>
 
          <div class="box">

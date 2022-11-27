@@ -22,7 +22,7 @@ if (!isset($user_id)) {
 <body>
    <?php include 'header.php'; ?>
 
-   <div class="heading" style="background: url(./images/headersea.png) no-repeat;">
+<div class="heading" style="background: url(./images/headersea.png) no-repeat;background-size:cover;">
       <h3>your orders</h3>
       <p> <a href="home.php">home</a> / orders </p>
    </div>
@@ -66,6 +66,7 @@ if (!isset($user_id)) {
 
    </section>
    <?php include 'footer.php'; ?>
+   <script src="js/script.js"></script>
 </body>
 
 </html>

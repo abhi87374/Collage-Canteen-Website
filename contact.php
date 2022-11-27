@@ -41,7 +41,7 @@ if (isset($_POST['send'])) {
 
    <?php include 'header.php'; ?>
 
-   <div class="heading" style="background: url(./images/headersea.png) no-repeat;">
+<div class="heading" style="background: url(./images/headersea.png) no-repeat;background-size:cover;">
       <h3>contact us</h3>
       <p> <a href="home.php">home</a> / contact </p>
    </div>
@@ -59,6 +59,7 @@ if (isset($_POST['send'])) {
 
    </section>
    <?php include 'footer.php'; ?>
+   <script src="js/script.js"></script>
 
 </body>
 
