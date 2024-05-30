@@ -27,3 +27,13 @@ A canteen facility is a supplementary system provided by organizations for their
 ## Live Website
 
 You can visit our live website at: [Our Canteen Website](https://collage-canteen-website.000webhostapp.com)
+
+##Why php?
+While Node.js is a powerful tool, particularly for applications requiring real-time communication and handling numerous simultaneous connections, PHP was chosen for this project because of its:
+
+Familiarity and ease of use by the development team
+Strong suitability for web development and server-side scripting
+Seamless integration with MySQL
+Broad support by web hosting providers
+Ample community support and resources
+These factors make PHP an ideal choice for our canteen website, ensuring a smooth development process and efficient maintenance.
